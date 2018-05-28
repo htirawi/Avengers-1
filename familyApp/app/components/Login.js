@@ -15,6 +15,7 @@ import { createStackNavigator } from 'react-navigation';
 import SignUp from './SignUp';
 import DrawerKids from './DrawerKids';
 import Drawer from './Drawer';
+import { REACT_URL } from 'react-native-dotenv'
 export default class Login extends React.Component {
 
   constructor(props){
@@ -42,7 +43,8 @@ export default class Login extends React.Component {
      //console.log('hi',role)
           const { navigate } = this.props.navigation;
            // axios.post('http://192.168.1.86:3000/api/login', {
-             axios.post('http://10.0.2.2:3000/api/login',{
+             // axios.post('http://10.0.2.2:3000/api/login',{
+              axios.post(REACT_URL +'api/login',{
              user:this.state
          })
          .then(async function (response) {
