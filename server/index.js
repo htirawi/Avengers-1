@@ -31,3 +31,10 @@ app.use('/',appRouter);
 // app.listen(PORT, function() {
 //   console.log(`listening on PORT ${PORT}`);
 // });
+
+
+var port = process.env.PORT || 3000;
+
+const server = app
+.use((req, res) => res.render('index') )
+.listen(port, () => console.log(`Listening on PORT ${ port }`));
