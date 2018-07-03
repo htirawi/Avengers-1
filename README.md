@@ -95,5 +95,4 @@ npm install
 
 ![](https://i.imgur.com/3kvdNSO.png) ![](https://i.imgur.com/SSSLOUS.png) ![](https://i.imgur.com/daWRBhi.png)
 
-last image
 ![](https://i.imgur.com/cmlALOm.png)
