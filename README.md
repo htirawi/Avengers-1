@@ -65,7 +65,11 @@ npm install
     ................TaskMonitor.test.js
     ................Bar.test.js
     ....README.md
-    
+
+
+## Deployment
+- We deployed [Familij](https://avengers-rbk.herokuapp.com/) server part using [heroku](https://www.heroku.com/).
+
 
 ## Features
 - Different family roles registeration.
@@ -78,6 +82,12 @@ npm install
 - Adding Shortage/need for a family.
 
 
+## Authors
+
+* **Nada Ghanem** - [Nadaaa](https://github.com/nadaa)
+* **Waed Alshiyyab** - [Waeeeed](https://github.com/Waed93)
+* **Mohammad Jozaa** - [Jozaaa](https://github.com/MohammadJozaa7)
+* **Hussein Tirawi** - [Huss](https://github.com/htirawi)
 
 ## Screens
 
@@ -85,8 +95,5 @@ npm install
 
 ![](https://i.imgur.com/3kvdNSO.png) ![](https://i.imgur.com/SSSLOUS.png) ![](https://i.imgur.com/daWRBhi.png)
 
-
+last image
 ![](https://i.imgur.com/cmlALOm.png)
-
-
-
